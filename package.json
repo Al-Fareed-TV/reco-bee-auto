@@ -10,6 +10,7 @@
   "devDependencies": {
     "@playwright/test": "^1.47.0",
     "@types/node": "^22.5.4",
+    "zod": "^3.23.8",
     "@sparrowimagineers/sparrow-dev": "^0.0.7"
   }
 }
