@@ -15,7 +15,7 @@ export const userLogin: Story = {
         5. Click on Request OTP button
         6. Wait till the OTP form modal is loaded
         7. Wait till the Login Button is clicked
-        8. Wait for the page to be loaded 
+        8. Wait for 15000ms page to be loaded 
         `,
 
     locators: [loginComponent],

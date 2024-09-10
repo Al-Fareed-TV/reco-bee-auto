@@ -1,8 +1,8 @@
-import { validateHomePage } from "./stories/home.page.stories";
+import { validateLandingPage } from "./stories/landing.page.stories";
 import { userLogin } from "./stories/login.page.stories";
 import { sparrowStory } from "../../../fixtures/sparrow.fixture";
 const stories = [
-  // validateHomePage,
+  // validateLandingPage,
   userLogin
 ];
 

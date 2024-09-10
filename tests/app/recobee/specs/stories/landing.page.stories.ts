@@ -1,10 +1,10 @@
 import { Story } from "@sparrowimagineers/sparrow-dev";
-import { homeComponent } from "../../components/home.component";
+import { landingComponent } from "../../components/landingpage.component";
 const data = {
     phone:7348842781,
     text:"Titanicg"
 }
-export const validateHomePage: Story = {
+export const validateLandingPage: Story = {
     title: "Validate home page",
     tag: "@smoke",
     description: `This story verifies that all the components are loaded successfully`,
@@ -18,5 +18,5 @@ export const validateHomePage: Story = {
         8. Click on Request OTP button and wait for 5000ms
         `,
         
-    locators : [homeComponent] ,
+    locators : [landingComponent] ,
   };
