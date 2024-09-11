@@ -1,21 +1,21 @@
 import { Story } from "@sparrowimagineers/sparrow-dev";
 import { loginComponent } from "../../components/login.component";
 const data = {
-    phone: 7348842781,
-    text: "Titanicg"
+    email: process.env.USER_EMAIL,
+    password: process.env.USER_PASSWORD
 }
-export const userLogin: Story = {
+export const validateUserLogin: Story = {
     title: "Test User log in",
     tag: "@smoke @login",
     description: `This story verifies user is able to log in successfully with valid credentials`,
     steps: `1. wait till page loads
         2. Click Sign Up/Login Button
         3. wait till Login form is displayed 
-        4. Enter ${data.phone} in Phone number input field
-        5. Click on Request OTP button
-        6. Wait till the OTP form modal is loaded
-        7. Wait till the Login Button is clicked
-        8. Wait for 15000ms page to be loaded 
+        4. Click on Continue with Google
+        5. Enter ${data.email} in Email input field 
+        6. click on Next Button
+        7. Enter ${data.password} in password input field
+        8. click on Next Button
         `,
 
     locators: [loginComponent],

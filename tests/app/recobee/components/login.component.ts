@@ -13,23 +13,13 @@ export const loginComponent: Locators = [
         locatorSignature: "page.locator('body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div')"
     },
     {
-        name: "Phone number input field",
+        name: "Email input field",
         description: "To enter user's phone number",
-        locatorSignature: "page.getByPlaceholder('Type your Mobile Number')"
+        locatorSignature: "page.locator('#identifierId')"
     },
     {
-        name: "Request OTP button",
+        name: "Next button",
         description: "user's request for otp",
-        locatorSignature: "page.getByText('Request OTP')"
-    },
-    {
-        name: "OTP form modal",
-        description: "Input otp",
-        locatorSignature: "page.locator('body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div > div')"
-    },
-{
-        name: "Login Button",
-        description: "Input otp",
-        locatorSignature: "page.getByText('Login')"
+        locatorSignature: "page.getByText('Next')"
     },
 ];
