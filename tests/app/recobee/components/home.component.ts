@@ -8,28 +8,14 @@ export const homeComponent: Locators = [
         locatorSignature: "page.locator('body > div > div > div.md\:w-1\/5.w-0.fixed.top-3.left-50.space-y-2')",
     },
     {
-        name: "Login form",
-        description: "Modal to sign up/login user",
-        locatorSignature: "page.locator('body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div')"
+        name: "Recent Release Section",
+        description: "Carousel for recent release",
+        locatorSignature: "page.locator('body > div > div > div.relative.md\:w-1\/2.w-full.flex.flex-col.gap-2.pt-0.bg-black > div.mt-2.mb-10 > div > div.flex.flex-col.gap-1.items-stretch > div')",
     },
     {
-        name: "Phone number input field",
-        description: "To enter user's phone number",
-        locatorSignature: "page.getByPlaceholder('Type your Mobile Number')"
+        name: "Top Charts Section",
+        description: "Carousel for top movies",
+        locatorSignature: "page.locator('body > div > div > div.relative.md\:w-1\/2.w-full.flex.flex-col.gap-2.pt-0.bg-black > div.mt-2.mb-10 > div > div.flex.flex-col.gap-1.items-stretch > div')",
     },
-    {
-        name: "Request OTP button",
-        description: "user's request for otp",
-        locatorSignature: "page.getByText('Request OTP')"
-    },
-    {
-        name: "OTP form modal",
-        description: "Input otp",
-        locatorSignature: "page.locator('body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div > div')"
-    },
-{
-        name: "Login Button",
-        description: "Input otp",
-        locatorSignature: "page.getByText('Login')"
-    },
+    
 ];
