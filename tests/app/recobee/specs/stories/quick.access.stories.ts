@@ -1,6 +1,5 @@
 import { Story } from "@sparrowimagineers/sparrow-dev";
 import { quickAccessComponent } from "../../components/common/quickacces.component";
-import { validateUserLogin } from "./login.page.stories";
 export const validateQuickAccessComponent: Story = {
     title: "Quick Access component test",
     tag: "@smoke",
