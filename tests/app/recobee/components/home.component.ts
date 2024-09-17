@@ -9,8 +9,8 @@ export const homeComponent: Locators = [
     },
     {
         name: "Recent Release Section",
-        description: "Carousel for recent release",
-        locatorSignature: "page.locator('body > div > div > div.relative.md\:w-1\/2.w-full.flex.flex-col.gap-2.pt-0.bg-black > div.mt-2.mb-10 > div > div.flex.flex-col.gap-1.items-stretch > div')",
+        description: "xpath of recent release Carouse ",
+        locatorSignature: "/html/body/div/div/div[3]/div[2]/div/div[3]/div",
     },
     {
         name: "Top Charts Section",
