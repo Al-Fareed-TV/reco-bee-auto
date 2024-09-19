@@ -13,13 +13,29 @@ export const loginComponent: Locators = [
         locatorSignature: "page.locator('body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div')"
     },
     {
-        name: "Email input field",
+        name: "Phone input field",
         description: "To enter user's phone number",
-        locatorSignature: "page.locator('#identifierId')"
+        locatorSignature: "page.getByPlaceholder('Type your Mobile Number')"
     },
     {
-        name: "Next button",
-        description: "user's request for otp",
-        locatorSignature: "page.getByText('Next')"
+        name: "OTP request button",
+        description: "method to request for otp",
+        locatorSignature: "page.getByText('Request OTP')"
+    },
+    {
+        name: "OTP input field",
+        description: "provided css locator has 6 child div element, In each div element there is a child input element to enter otp",
+        locatorSignature: "page.locator('body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div > div > div > div > div > div > div:nth-child(1) > input')\
+        body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div > div > div > div > div > div > div:nth-child(2) > input\
+        body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div > div > div > div > div > div > div:nth-child(3) > input\
+        body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div > div > div > div > div > div > div:nth-child(4) > input\
+        body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div > div > div > div > div > div > div:nth-child(5) > input\
+        body > div > div > div.fixed.top-0.left-0.w-screen.h-screen.flex.items-center.justify-center.z-50 > div > div > div > div > div > div > div:nth-child(6) > input"
+    },
+    
+    {
+        name: "Login button",
+        description: "login button",
+        locatorSignature: "page.getByText('Login')"
     },
 ];

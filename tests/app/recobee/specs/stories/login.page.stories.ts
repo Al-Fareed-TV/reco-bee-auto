@@ -1,8 +1,8 @@
 import { Story } from "@sparrowimagineers/sparrow-dev";
 import { loginComponent } from "../../components/login.component";
 const data = {
-    email: process.env.USER_EMAIL,
-    password: process.env.USER_PASSWORD
+    phone: process.env.PHONE,
+    otp: process.env.OTP
 }
 export const validateUserLogin: Story = {
     title: "Test User log in",
@@ -11,11 +11,10 @@ export const validateUserLogin: Story = {
     steps: `1. wait till page loads
         2. Click Sign Up/Login Button
         3. wait till Login form is displayed 
-        4. Click on Continue with Google
-        5. Enter ${data.email} in Email input field 
-        6. click on Next Button
-        7. Enter ${data.password} in password input field
-        8. click on Next Button
+        4. Enter ${data.phone} in Phone input field
+        6. click on Request OTP Button
+        7. Enter ${data.otp} in OTP input field
+        8. click on Login Button
         `,
 
     locators: [loginComponent],

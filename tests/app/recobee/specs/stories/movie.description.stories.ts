@@ -1,7 +1,7 @@
 import { Story } from "@sparrowimagineers/sparrow-dev";
 import { allComponents } from "../../components/all.components";
 
-export const validateHomePage: Story = {
+export const validateMovieDescriptionPage: Story = {
     title: "Home page test",
     tag: "@smoke",
     description: `This story tests Homepage of the application`,
