@@ -9,8 +9,8 @@ export const validateHomePage: Story = {
     1. Wait for the page to be loaded
     2. Verify 'Recommendations Generator' text is visible
     3. Check Recent Release Section is visible
-    4. Scroll left to 100 on Recent Release Section
-    5. Scroll up till Top Charts Section is visible
+    4. Scroll left to 100 on Recent Release Section using scrollIntoViewIfNeeded() method
+    5. Scroll up till Top Charts Section is visible using scrollIntoViewIfNeeded() method
         `,
     locators: allComponents,
 };

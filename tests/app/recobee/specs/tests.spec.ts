@@ -10,8 +10,8 @@ const stories = [
   // validateLandingPage,
   // validateQuickAccessComponent,
   // validateHomePage,
+  // valdateSearchPage,
   validateMovieDescriptionPage
-  // valdateSearchPage
 ];
 sparrowStory.beforeEach(async({sparrow})=>{
  await sparrow.runStory(validateUserLogin)

@@ -4,7 +4,7 @@ export const searchBarComponent:Locators =[
     {
         name : "Search bar",
         description:"Search bar to search movie or series",
-        locatorSignature:"page.loactor('Search for Movies, TV Shows, Reviews, etc...')",
+        locatorSignature:"page.getByPlaceholder('Search for Movies, TV Shows, Reviews, etc...')",
     },
     {
         name : "Search icon",
@@ -20,6 +20,11 @@ export const searchBarComponent:Locators =[
         name : "Cast Section",
         description:"locator of search suggestion",
         locatorSignature:"body > div > div > div.relative.md\:w-1\/2.w-full.flex.flex-col.gap-2 > div.mt-2 > div > div:nth-child(4) > div.flex.flex-wrap.gap-2\.5",
+    },
+    {
+        name : "First movie listed",
+        description:"locator of the first movie listed",
+        locatorSignature:"body > div > div > div.relative.md\:w-1\/2.w-full.flex.flex-col.gap-2 > div.mt-2 > div > div:nth-child(2) > div.flex.flex-wrap.gap-2\.5 > div:nth-child(1)",
     },
     
 ];

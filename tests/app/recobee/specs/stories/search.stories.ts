@@ -16,6 +16,7 @@ export const valdateSearchPage: Story = {
     Then verify 'List' text is displayed
     Then verify 'Cast' text is displayed
     Then verify cast seetion is visible
+    Then click on First movie listed
         `,
     locators: [searchBarComponent]
 };

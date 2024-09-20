@@ -14,7 +14,6 @@ export const validateUserLogin: Story = {
         4. Enter ${data.phone} in Phone input field
         6. click on Request OTP Button
         7. Enter ${data.otp} in OTP input field
-        8. click on Login Button
         `,
 
     locators: [loginComponent],
